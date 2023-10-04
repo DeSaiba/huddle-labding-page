@@ -17,3 +17,7 @@ button{
     border-style: none;
     background: none;
 }
+
+ul, li{
+    list-style: none;
+}

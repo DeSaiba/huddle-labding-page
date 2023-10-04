@@ -44,6 +44,7 @@
     }
 
     footer {
+        margin-top: 50px;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -54,18 +55,43 @@
     body {
         background: url(../images/bg-mobile.svg) top center no-repeat;
         background-color: var(--primary-color-violet);
-        padding: 30px 35px;
+        padding: 20px 20px;
+    }
+
+    .header {
+        margin-bottom: 10px;
+    }
+
+    .header img {
+        margin: 10px;
+        width: 100px;
+
+    }
+
+    .main-container .templante-mockups img {
+        width: 250px;
     }
 
     .main-container .about-container .about-title {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .main-container .about-container .about-description {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
+        text-align: center;
+        margin: 5px 15px;
     }
 
-    .footer .social a {
-        font-size: 1.5rem;
+    
+    
+    .main-container .about-container .bnt-button a{
+        padding: 6px 70px;
+        font-size: 1rem; 
     }
+    
+
+    .footer li a {
+        font-size: 1rem;
+    }
+
 }
